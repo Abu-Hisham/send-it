@@ -112,3 +112,39 @@ button {
 .status{
     background-color: blueviolet;
 }
+.submit{
+    background-color: green;
+}
+.form-data{
+        /* Size and position */
+        width: 300px;
+        margin: 60px auto 30px;
+        padding: 10px;
+        position: relative;
+    
+        /* Font styles */
+        font-family: 'Raleway', 'Lato', Arial, sans-serif;
+        color: white;
+        text-shadow: 0 2px 1px rgba(0,0,0,0.3);
+}
+.form-data input[type="text"]
+{
+      /* Size and position */
+      width: 100%;
+      padding: 8px 4px 8px 10px;
+      margin-bottom: 15px;
+  
+      /* Styles */
+      border: 1px solid #4e3043; /* Fallback */
+      border: 1px solid rgba(78,48,67, 0.8);
+      background: rgba(0,0,0,0.15);
+      border-radius: 2px;
+      box-shadow: 
+          0 1px 0 white, 
+          inset 0 1px 1px rgba(105, 100, 100, 0.1);
+  
+      /* Font styles */
+      font-family: 'Raleway', 'Lato', Arial, sans-serif;
+      color: #fff;
+      font-size: 13px;
+}
