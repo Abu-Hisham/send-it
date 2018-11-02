@@ -48,6 +48,13 @@ border-style: ridge;
 padding: 2%;
 border-radius: 3%;
 }
+
+.content-button {
+    width:50%;
+    clear: both;
+    margin: 0 20%;
+ 
+}
 #menu5 ul li{
     float:left;
 }
@@ -95,6 +102,24 @@ button {
     color: #fff;
     border-color: black;
 	position: relative;
+}
+.submit-button {
+    border: none;
+    padding: 0.6em 1.2em;
+    background: rgb(52, 37, 189);
+    color: #fff;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+    margin: 3px 2px;
+    border-radius: 2px;
+}
+
+.submit-button:hover {
+    background: rgb(9, 2, 66);
 }
 .manage{
     background-color: aquamarine;
@@ -151,24 +176,6 @@ button {
 /*---------------------
 Ride Offers Modals
 ---------------------*/
-button {
-    border: none;
-    padding: 0.6em 1.2em;
-    background: #594642;
-    color: #fff;
-    font-family: 'Lato', Calibri, Arial, sans-serif;
-    font-size: 1em;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    cursor: pointer;
-    display: inline-block;
-    margin: 3px 2px;
-    border-radius: 2px;
-}
-
-button:hover {
-    background: #A5281B;
-}
 .md-perspective,
 .md-perspective body {
     height: 100%;
