@@ -49,15 +49,25 @@
         </div>
         <div class="md-modal md-effect-1" id="modal-1">
             <div class="md-content">
-                <h3>Ride Details</h3>
+                <h3>New Parcel Details</h3>
                 <div>
-                    <p>Below ar the details for your ride</p>
-                    <ul>
-                        <li><strong>Date:</strong> Your Ride took place at this day of the month, this time of the day.</li>
-                        <li><strong>Pick Up:</strong> Your Pick Up Location was at this point of the city.</li>
-                        <li><strong>Destination:</strong>You were Taken to this point of the City.</li>
-                    </ul>
-                    <button class="md-close">Close me!</button>
+                    <p>Enter the details for your new parcel</p>
+                    <form class="form-data">
+                        <label for="name">Name of the Reciepient</label><br >
+                        <input type="text" id="name" placeholder="Reciepient Name" ><br >
+                        <label for="email">Email of the Reciepient</label><br >
+                        <input type="text" id="email" placeholder="Reciepient Email" ><br >
+                        <label for="phone">Phone of the Reciepient</label><br >
+                        <input type="text" id="phone" placeholder="Reciepient Phone" ><br >
+                        <label for="dest">Destination of the Reciepient</label><br >
+                        <input type="text" id="dest" placeholder="Reciepient Destination" ><br >
+                        <div class="btn-group">
+                            <button class="submit-button md-close" style="background-color:green">Add</button>
+                            <button type="button" class="submit-button md-close" style="background-color:maroon">Cancel</button>
+                        </div>
+                        
+                   </form>
+                    
                 </div>
             </div>
         </div>	

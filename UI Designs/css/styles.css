@@ -114,12 +114,17 @@ button {
     text-transform: uppercase;
     cursor: pointer;
     display: inline-block;
-    margin: 3px 2px;
+    margin-right: 3em;
     border-radius: 2px;
 }
 
 .submit-button:hover {
     background: rgb(9, 2, 66);
+}
+.btn-group button{
+    float: left;   
+    margin: 1em 1em;
+    padding:1em 1em 1em 1em;
 }
 .manage{
     background-color: aquamarine;
@@ -226,7 +231,7 @@ Ride Offers Modals
     left: 0;
     z-index: 1000;
     opacity: 0;
-    background: rgba(143,27,15,0.8);
+    background: rgba(43, 7, 100, 0.8);
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -240,7 +245,7 @@ Ride Offers Modals
 /* Content styles */
 .md-content {
     color: #fff;
-    background: #e74c3c;
+    background: #4d3ddf;
     position: relative;
     border-radius: 3px;
     margin: 0 auto;
