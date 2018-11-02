@@ -43,7 +43,33 @@
                 <hr>
                 <li><h3>Parcel 4</h3><button type="button" class="edit">Edit</button><button type="button" class="status">status</button><button type="button" class="cancel">Cancel</button></li>
             </ul>
-            
         </div>
+        <div class="md-modal md-effect-1" id="modal-1">
+            <div class="md-content">
+                <h3>Ride Details</h3>
+                <div>
+                    <p>Below ar the details for your ride</p>
+                    <ul>
+                        <li><strong>Date:</strong> Your Ride took place at this day of the month, this time of the day.</li>
+                        <li><strong>Pick Up:</strong> Your Pick Up Location was at this point of the city.</li>
+                        <li><strong>Destination:</strong>You were Taken to this point of the City.</li>
+                    </ul>
+                    <button class="md-close">Close me!</button>
+                </div>
+            </div>
+        </div>	
+        <div class="column">
+            <button class="md-trigger" data-modal="modal-1">Ride 1 &amp; Details</button>
+        </div>
+        <div class="column">
+            <button class="md-trigger" data-modal="modal-1">Ride 2 &amp; Details</button>
+        </div>
+        <div class="column">
+            <button class="md-trigger" data-modal="modal-1">Ride 3 &amp; Details</button>
+        </div>
+        <div class="column">
+            <button class="md-trigger" data-modal="modal-1">Ride 4 &amp; Details</button>
+        </div>
+        <div class="md-overlay"></div><!-- the overlay element -->
     </body>
 </html>
