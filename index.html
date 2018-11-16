@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>SEND IT</title>
-        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+        <link rel="stylesheet" type="text/css" href="UI Designs/css/styles.css" />
     </head>
     <body>
         <header>
@@ -14,7 +14,7 @@
                                 <span class="text">Welcome</span>
                             </a>
                         </li>
-                        <li><a href="manage.html">
+                        <li><a href="UI Designs/manage.html">
                                 <span class="title">Manage</span>
                                 <span class="text">Manage my parcels</span>
                             </a>
@@ -24,7 +24,7 @@
                                 <span class="text">Who we are</span>
                             </a>
                         </li>
-                        <li><a href="login.html">
+                        <li><a href="UI Designs/login.html">
                             <span class="title">Signout</span>
                             <span class="text">Log Out</span>
                             </a>
@@ -43,7 +43,36 @@
                 <hr>
                 <li><h3>Parcel 4</h3><button type="button" class="edit">Edit</button><button type="button" class="status">status</button><button type="button" class="cancel">Cancel</button></li>
             </ul>
-            
         </div>
+        <div class="content-button column">
+            <button  class="submit-button md-trigger" data-modal="modal-1">New Parcel</button>
+        </div>
+        <div class="md-modal md-effect-1" id="modal-1">
+            <div class="md-content">
+                <h3>New Parcel Details</h3>
+                <div>
+                    <p>Enter the details for your new parcel</p>
+                    <form class="form-data">
+                        <label for="name">Name of the Reciepient</label><br >
+                        <input type="text" id="name" placeholder="Reciepient Name" ><br >
+                        <label for="email">Email of the Reciepient</label><br >
+                        <input type="text" id="email" placeholder="Reciepient Email" ><br >
+                        <label for="phone">Phone of the Reciepient</label><br >
+                        <input type="text" id="phone" placeholder="Reciepient Phone" ><br >
+                        <label for="dest">Destination of the Reciepient</label><br >
+                        <input type="text" id="dest" placeholder="Reciepient Destination" ><br >
+                        <div class="btn-group">
+                            <button class="submit-button md-close" style="background-color:green">Add</button>
+                            <button class="submit-button md-close" style="background-color:maroon">Cancel</button>
+                        </div>
+                        
+                   </form>
+                    
+                </div>
+            </div>
+        </div>	
+        <div class="md-overlay"></div><!-- the overlay element -->
     </body>
+    <script src="UI Designs/js/classie.js"></script>
+    <script src="UI Designs/js/modalEffects.js"></script>
 </html>
